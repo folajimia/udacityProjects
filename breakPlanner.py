@@ -1,5 +1,10 @@
 import time
 import webbrowser
+import pafy
+
+url="https://www.youtube.com/watch?v=lKVs9PHvV2U"
+video = pafy.new(url)
+videoLength=video.length
 
 
 print("Enter no of breaks")
@@ -10,9 +15,11 @@ i=0
 breakCount=0
 
 print("This program started on "+time.ctime())
-while breakCount < numberOfBreaks:
+while breakCount < int(numberOfBreaks):
+	#todo -add code to close video when it ends
 	print("going on a break")
+	print("Your "+ str(breakCount) +"started at "+time.ctime())
 	time.sleep(10)
-	webbrowser.open("https://www.youtube.com/watch?v=lKVs9PHvV2U",new=0)
+	webbrowser.open(url,new=0)
 	breakCount+=1
 
