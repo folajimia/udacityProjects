@@ -34,12 +34,19 @@ def draw_triangle():
 	tom.shape("turtle")
 	tom.color("green")
 
-	tom.right(45)
+	#tom.right(45)
+	#tom.forward(100)
+	#tom.right(90)
+	#tom.forward(100)
+	#tom.right(135)
+	#tom.forward(130)
+
+	tom.left(120)
 	tom.forward(100)
-	tom.right(90)
+	tom.left(120)
 	tom.forward(100)
-	tom.right(135)
-	tom.forward(130)
+	tom.left(120)
+	tom.forward(100)
 
 
 
