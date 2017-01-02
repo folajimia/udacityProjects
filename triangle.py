@@ -13,7 +13,7 @@ def create_background():
 	window = turtle.Screen()
 	window.bgcolor("red")
 
-	recursive_triangle(100,4)
+	recursive_triangle(400,4)
 
 	window.exitonclick()
 
