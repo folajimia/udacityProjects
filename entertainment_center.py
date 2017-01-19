@@ -41,6 +41,12 @@ life= media.Movie("Life",
 						"https://upload.wikimedia.org/wikipedia/en/c/c4/Life_%282017_film%29.png",
 						"https://www.youtube.com/watch?v=LeLsJfGmY_Y")
 
+
+#print(media.Movie.__doc__)
+#print(media.Movie.__name__)
+#print(media.Movie.__module__)
+#print(media.Movie.VALID_RATINGS)
+
 movies=[ghost_in_the_shell,alien_covenant,passangers,valerian,logan,life]
 
 fresh_tomatoes.open_movies_page(movies)

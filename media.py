@@ -9,6 +9,8 @@ import webbrowser
 #def show_info(title, storyline, release_date, rating, youtube_url, director, box_office):
 	# Print movie information
 class Movie():
+	"""This class provides a way to store  movie related information"""
+	#VALID_RATINGS= ["G","PG","PG-13","R"]
 	def __init__(self,movie_title, movie_storyline, poster_image, trailer_youtube):
 		self.title=movie_title
 		self.storyline=movie_storyline
